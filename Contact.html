@@ -9,20 +9,24 @@
             }
         </script>
         <style>
-            .text_ {font-size: 80%; text-align: justify; margin-bottom: 5px; margin-top: 20px;}
+            .text_ {font-size: 80%; text-align: justify; margin-bottom: 5px; margin-top: 20px; color: aliceblue;}
+            .Buttonhover:hover {border: 0px transparent; border-radius: 5px; color: aliceblue; background-color: rgb(45, 111, 235); width: 100%; height: 30px;}
+            .Buttonhover{border: 0px transparent; border-radius: 5px; color: aliceblue; background-color: rgb(37, 98, 212); width: 100%; height: 30px;}
         </style>
     </head>
-    <body style="background-image: url('back2.png'); background-size: cover;">
-        <div style="text-align: center; margin-left: 30%; margin-right: 30%;">
-            <h1 style="text-align: center; color: white; font-size: 300%; font-family: Arial, Helvetica, sans-serif; font-weight: lighter;">Contact Us</h1>
-            <h4 style="text-align: center; color: white; font-size: 90%; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; margin-bottom: 40px;">Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible</h4>
-            <div class="text_">Name*</div>
-            <input type="text" style="width: 100%; height: 30px; float: center;"><br>
-            <div class="text_">Email Address*</div>
-            <input type="text" style="width: 100%; height: 30px; float: center;"><br>
-            <div class="text_">Message</div>
-            <input type="text" style="width: 100%; height: 150px; float: center;"><br><br>
-            <input type="submit" value="Submit" onclick="showAlert()" style="border-radius: 5px; text-align: center; color: aliceblue; background-color: rgb(17, 106, 189); width: 100%; height: 30px; ">
-        </div>
+    <body style="background-image: linear-gradient(rgb(114, 1, 179),rgb(15, 158, 184)); background-repeat: no-repeat; padding: 30px;">
+        <form>
+            <div style="text-align: center; margin-left: 28%; margin-right: 28%;">
+                <div style="text-align: center;"><h1 style="color: white; font-size: 300%; font-family: Arial, Helvetica, sans-serif; font-weight: lighter;">Contact Us</h1></div>
+                <div style="text-align: center;"><h4 style="color: white; font-size: 90%; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; margin-bottom: 40px;">Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible</h4></div>
+                <div class="text_"><label>Name*</label></div>
+                <input type="text" style="width: 100%; height: 30px; float: center;"><br>
+                <div class="text_"><label>Email Address*</label></div>
+                <input type="text" style="width: 100%; height: 30px; float: center;"><br>
+                <div class="text_"><label>Message</label></div>
+                <input type="text" style="width: 100%; height: 150px;"><br><br>
+                <input class="Buttonhover" type="submit" value="Submit" onclick="showAlert()">
+            </div>
+        </form>
     </body>
 </html>
