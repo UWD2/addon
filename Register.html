@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+            .divstyle {display: flex;}
+            .labstyle {font-size: 90%; width: 100%;margin-bottom: 15px;}
+            .divlab {text-align: left;}
+            .inpstyle {align-self: center; width: 80%;margin-bottom: 10px;}
+            .checkgender {margin-bottom: 13px; margin-top: 6px;}
+        </style>
+    </head>
+    <body style="text-align: center; background-image: linear-gradient(magenta,purple); background-size: contain; background-repeat: no-repeat;">
+        <form style="border-radius: 5px; padding:30px; background-color: whitesmoke; margin: 50px; margin-left: 28%; margin-right: 28%; text-align: left;">
+            <label style="font-size: 200%;">Registration Form</label><br><br>
+            <div class="divstyle">
+                <div style="width: 100%; text-align: center;">
+                    <div class="divlab">
+                        <label class="labstyle">First Name</label><br>
+                        <input class="inpstyle" type="text"><br>
+                    </div>
+                    <div class="divlab">
+                        <label class="labstyle">Birthday</label><br>
+                        <input class="inpstyle" type="date"><br>
+                    </div>
+                    <div class="divlab">
+                        <label class="labstyle">Email</label><br>
+                        <input class="inpstyle" type="text"><br>
+                    </div>
+                </div>
+                <div style="width: 100%; text-align: center;">
+                    <div class="divlab">
+                        <label class="labstyle">Last Name</label><br>
+                        <input class="inpstyle" type="text"><br>
+                    </div>
+                    <div class="divlab">
+                        <label class="labstyle">Gender</label><br>
+                        <input class="checkgender"type="checkbox" name="Male" value="Yes">
+                        <label class="checkgender">Male</label>
+                        <input class="checkgender" type="checkbox" name="Female" value="Yes">
+                        <label class="checkgender">Female</label>
+                    </div>
+                    <div class="divlab">
+                        <label class="labstyle">Phone Number</label><br>
+                        <input class="inpstyle" type="text"><br>
+                    </div>
+                </div>
+            </div>
+            <label class="labstyle">Subject</label><br>
+            <select name="Subject" style="width: 100%"></select>
+        </form>
+    </body>
+</html>
